@@ -167,8 +167,12 @@
             android:text="Email:"
             android:textColor="#000000"
             android:textSize="23sp"
-            tools:layout_editor_absoluteX="92dp"
-            tools:layout_editor_absoluteY="237dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.264"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.342" />
 
         <TextView
             android:id="@+id/textView46"
@@ -177,8 +181,12 @@
             android:text="Date:"
             android:textColor="#000000"
             android:textSize="23sp"
-            tools:layout_editor_absoluteX="99dp"
-            tools:layout_editor_absoluteY="288dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.284"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.407" />
 
         <TextView
             android:id="@+id/textView47"
@@ -187,8 +195,12 @@
             android:text="name:"
             android:textColor="#000000"
             android:textSize="23sp"
-            tools:layout_editor_absoluteX="92dp"
-            tools:layout_editor_absoluteY="87dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.264"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.128" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
